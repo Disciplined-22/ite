@@ -1,0 +1,129 @@
+.heading {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+
+
+.head_para_1 {
+    text-align: left;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.head_para_2 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #c6c7c8; /* Adjust the color as needed */
+}
+
+/* Add some responsiveness */
+@media (max-width: 768px) {
+    .head_para_1 {
+        font-size: 18px;
+    }
+}
+
+
+.team-member-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: #fff;
+}
+
+.team-member-card:hover {
+    transform: scale(1.05);
+}
+
+.team-member-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.team-member-card .card-body {
+    padding: 20px;
+}
+
+.team-member-card .card-title {
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.team-member-card .card-text {
+    text-align: center;
+    color: #666;
+    font-size: 1.2em;
+}
+
+.about-banner {
+    position: relative;
+    width: 100%;
+    background: url('images/about_1.jpg') center/cover no-repeat; /* Replace 'banner-image.jpg' with your image */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: unset!important;
+    min-height: 60vh;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity */
+    border-radius: 10px;
+}
+
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(images/banner_5.jpg), no-repeat center center;
+    background-size: cover;
+}
+
+
+.img_gif{
+    width: 70px;
+}
+
+.price_tag{
+    padding-right: 30px;
+}
+
+.duration{
+    padding-right: 14px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .duration{
+        padding-right: 34px;
+    }
+
+}
+
+a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: underline;
+    text-underline-offset: 5px; /* Adjust this value to control the gap */
+}
+
